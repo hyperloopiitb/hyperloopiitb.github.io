@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(45deg,
+    rgba(0, 0, 0, 0.705),
+    rgba(0, 0, 0, 0.692)),
+    url("images/events.svg");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+   }
+   
+
+   .event-header{
+    height:100vh;
+    margin: 0 0;
+      position:relative;
+      color:white;
+      letter-spacing:3px;
+   }
+   
+
+   .event{
+       padding:50px;
+       background-color: rgba(255, 255, 255, 0.747);
+       border-radius: 10px;
+       
+   }
+   
+   .backlayer{
+   
+       margin-top:50px;
+       padding:100px 0;
+       
+    
+   }
+   
+   
+   .event-description{
+       line-height:28px;
+   }
+   
+
+   .section-titlt{
+       letter-spacing: 2px;
+   }
+
+   .footer{
+      background-color: whitesmoke;
+   }
+   
+   
+
+   @media screen and (max-width:800px){
+    .event{
+        
+        background-color: rgba(255, 255, 255, 0.747);
+        border-radius: 10px;
+        
+    }
+    
+    .backlayer{
+    
+        margin-top:50px;
+        padding:50px 0;
+        
+     
+    }
+   }
+
+
+  
+ 
