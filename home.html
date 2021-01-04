@@ -34,9 +34,7 @@
          <style>
             body{
   
-               background: linear-gradient(0deg,
-               rgba(0, 0, 0, 0.705),
-               rgba(0, 0, 0, 0.74)),
+               background: 
              url("./images/home.svg");
              
                background-position: center;
@@ -47,6 +45,7 @@
                z-index: 0;
                margin: 0 0;
                position:relative;
+               font-family: "Segoe UI", sans-serif;
              
            }
          </style>
@@ -63,16 +62,16 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                <ul class="navbar-nav ml-auto">
                   <li class="nav-item mx-3">
-                     <a class="nav-link button-nav" href="/">HOME</a>
+                     <a class="nav-link button-nav" href="http://homepages.iitb.ac.in/~19d110019/">HOME</a>
                   </li>
                   <li class="nav-item mx-3">
-                     <a class="nav-link button-nav" href="/events">EVENTS</a>
+                     <a class="nav-link button-nav" href="./event.html">EVENTS</a>
                   </li>
                   <li class="nav-item mx-3">
-                     <a class="nav-link button-nav" href="/team">TEAM</a>
+                     <a class="nav-link button-nav" href="./team.html">TEAM</a>
                   </li>
                   <li class="nav-item mx-3">
-                     <a class="nav-link button-nav" href="/contact">CONTACT US</a>
+                     <a class="nav-link button-nav" href="#">CONTACT US</a>
                   </li>
                </ul>
             </div>
@@ -117,18 +116,18 @@
 
           <!-- home -->
           <div class="container home-section" >
-            <div class="section">
-               <div data-aos="fade-up" data-aos-delay="50">
+            <div class="section" data-aos="zoom-up" data-aos-delay="50">
+               <div class="section-header" >
                   <h3 id="about-line"><b>Hyperloop</b></h3>
                   <div class="line"></div>
                </div>
-               <div class="row" data-aos="fade-right" data-aos-delay="100">
-                  <div class="col-lg-6  order-2 order-lg-2"  >
+               <div class="container-fluid" data-aos="fade-right" data-aos-delay="150">
+                  <!-- <div class="col-lg-6  order-2 order-lg-2"  >
                      <div class="sideimage">
                         <img src="images/home-1.svg" id="sideimage1" >
                      </div>
-                  </div>
-                  <div class="col-lg-6 pt-4 pt-lg-0 order-1 order-lg-1">
+                  </div> -->
+                  <div class="" >
                      <div class="content container" >
                         <p>
                            Hyperloop, envisioned as the ‘fifth mode of transportation’, is the brainchild of the great
@@ -151,19 +150,19 @@
                </div>
             </div>
             <div data-aos="zoom-in" data-aos-delay="150" >
-               <img src="images/home-1.svg" id="image-active-1" >
+               <!-- <img src="images/home-1.svg" id="image-active-1" > -->
             </div>
             <br>
             <br>
             <center>
-               <img id="ruler" src="img/header.png" style="width:0%;transition:all 0.5s linear" data-aos="zoom-in" data-aos-delay="250"  >
+               <!-- <img id="ruler" src="img/header.png" style="width:0%;transition:all 0.5s linear" data-aos="zoom-in" data-aos-delay="250"  > -->
             </center>
             <br>
             <br>
-            <div class="section" id="scroll">
-               <div class="row" data-aos="fade-left" data-aos-delay="100">
-                  <div class="col-lg-6 order-1 order-lg-2" >
-                     <div data-aos="fade-up" data-aos-delay="50">
+            <div class="section" id="scroll"  data-aos="zoom-up" data-aos-delay="50">
+               <div class="cotainer-fluid" data-aos="fade-left" data-aos-delay="150">
+                  <div class="" >
+                     <div class="section-header" >
                         <h3 id="about-line"><b>Hyperloop IITB</b></h3>
                         <div class="line"></div>
                      </div>
@@ -184,17 +183,17 @@
                         </p>
                      </div>
                   </div>
-                  <div class="col-lg-6 col-sm-12 pt-4 pt-lg-0 order-2 order-lg-1">
+                  <!-- <div class="col-lg-6 col-sm-12 pt-4 pt-lg-0 order-2 order-lg-1">
                      <div  class="sideimage"> 
                         <img src="images/hyperloop logo req.png" id="sideimage2">
                      </div>
-                  </div>
+                  </div> -->
                </div>
             </div>
             <br>
          <br>
          <div class="d-flex justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-            <img src="images/hyperloop logo req.png" id="image-active-2" >
+            <!-- <img src="images/hyperloop logo req.png" id="image-active-2" > -->
          </div>
          </div>
          
@@ -210,40 +209,61 @@
           content end
        -->
 
-       <footer class="footer-distributed">
-
+       <!-- <footer class="footer-distributed">
          <div class="footer-left ">
-            <p class="footer-company-name justify-content-center d-flex align-self-center" style="margin-top:30px;">Hyperloop IIT Bombay &copy; 2020</p>
+            <p class="footer-company-about d-flex justify-content-center ">                 
+               Follow Us On 
+            </p> 
+            <div class="footer-icons d-flex justify-content-center">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-instagram"></i></a>
+               <a href="#"><i class="fa fa-linkedin"></i></a>
+         </div>
          </div>
 
          <div class="footer-center">
-            <div class="d-flex justify-content-center">
-               <i class="fa fa-phone"></i>
-               <p class="d-flex align-self-center">+91 7735944281</p>
-            </div>
-
-            <div class="d-flex justify-content-center"> 
-               <i class="fa fa-envelope"></i>
-               <p class="d-flex align-self-center"><a  href="/cdn-cgi/l/email-protection#b4c7c1c4c4dbc6c0f4d7dbd9c4d5dacd9ad7dbd9">hyperloopiitb@gmail.com</a></p>
-            </div>
-
+            <p class="footer-company-name justify-content-center d-flex align-self-center" style="margin-top:30px;">Hyperloop IIT Bombay &copy; 2020</p>
          </div>
 
          <div class="footer-right"> 
-      
-               <p class="footer-company-about d-flex justify-content-center ">                 
-                  Follow Us On 
-               </p> 
-               <div class="footer-icons d-flex justify-content-center">
-                  <a href="#"><i class="fa fa-facebook"></i></a>
-                  <a href="#"><i class="fa fa-instagram"></i></a>
-                  <a href="#"><i class="fa fa-linkedin"></i></a>
-    
+            <div class="d-flex justify-content-center"> 
+               <i class="fa fa-envelope"></i>
+               <p class="d-flex align-self-center"><a  href="mailto:hyperloopiitb@gmail.com">hyperloopiitb@gmail.com</a></p>
             </div>
+         </div>
+      </footer> -->
+      <footer class="">
+         <center>
+          <div class="row footer_top">
+              <div class="footer-left col-sm-12  col-md-6">
+                  <p class="footer-company-about d-flex justify-content-center ">                 
+                     Follow Us On 
+                  </p> 
+                  <div class="footer-icons d-flex justify-content-center">
+                     <a href="#"><i class="fa fa-facebook"></i></a>
+                     <a href="#"><i class="fa fa-instagram"></i></a>
+                     <a href="#"><i class="fa fa-linkedin"></i></a>
+               </div>
+               </div>
+               <div class="footer-right  col-sm-12 col-md-6"> 
+                  <div class="d-flex justify-content-center"> 
+                     <i class="fa fa-envelope"></i>
+                     <p class="d-flex align-self-center"><a  href="mailto:hyperloopiitb@gmail.com">hyperloopiitb@gmail.com</a></p>
+                  </div>
+               </div>
+          </div>
 
-         </div>
-      </footer>
-         </div>
+         </center>
+         <center>
+             <div class="footer_bottom">
+              <p class="text-muted"> Hyperloop IIT Bombay &copy; 2020 </p>
+             </div>
+         </center>
+  </footer>
+
+
+
+        
       </body>
       <script>
          $(window).on("scroll", function () {

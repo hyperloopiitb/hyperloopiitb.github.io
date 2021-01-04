@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+#contact-header{
+  font-family: 'Oswald', sans-serif;
+
+}
+
+
+body{
+  font-family: "Segoe UI", sans-serif;
+}
+
 .map-container-6{
     overflow:hidden;
     padding-bottom:56.25%;
@@ -20,8 +32,41 @@
     
   input{
 
-    border-radius:25px;
+    border-radius:35px;
     text-decoration: capitalize;
    
   }
  
+
+
+
+  
+  .contact-info i{
+  /* background-color:  #121213; */
+  /* color: #ffffff; */
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+  }
+  
+    .contact-info i.fa-envelope, .contact-info i.fa-phone, .contact-info i.fa-marker{
+  font-size: 17px;
+  line-height: 38px;
+  }
+  
+    .contact-info p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+  }
+    .contact-info p a{
+  color:  #5383d3;
+  text-decoration: none;
+  }
+  

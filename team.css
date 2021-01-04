@@ -1,13 +1,11 @@
 body{
-    background: linear-gradient(45deg,
-    rgba(0, 0, 0, 0.61),
-    rgba(0, 0, 0, 0.726)),
+    background:
     url("images/events.svg");
     background-attachment: fixed;
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
-   
+    font-family: "Segoe UI", sans-serif;
    }
 
    .team-member-section{
@@ -23,9 +21,9 @@ body{
    .header{
        color: white;
     position: absolute;
-    top: 50%;
+    bottom: 150px;
     left:50%;
-    transform: translate(-50%,-50%);
+    transform: translateX(-50%);
     letter-spacing: 3px;
 }
 
@@ -63,7 +61,7 @@ body{
 .our-team .team-content{
     width: 100%;
     height: 100%;
-    background: #640087;
+    background: black;
     border-radius: 50%;
     padding-top: 30%;
     color: #fff;
@@ -74,7 +72,7 @@ body{
     transition: all 0.5s ease-out 0s;
 }
 .our-team:hover .team-content{
-    opacity: 0.8;
+    opacity: 0.6;
 }
 .our-team .title{
     font-size: 24px;
@@ -124,8 +122,8 @@ body{
     transition: all 0.3s ease 0s;
 }
 .our-team .icon li a:hover{
-    background: #e6af2e;
-    border: 1px solid #e6af2e;
+    background: transparent;
+  
 }
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }

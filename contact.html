@@ -33,6 +33,9 @@
                 });
               });
          </script>
+         <style>
+          @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+          </style>
       </head>
       <body>
          <!-- navigation-bar -->
@@ -76,22 +79,23 @@
       <section class="section pb-5">
   
           <div class="top container">
-              <div style="line-height: 12px; letter-spacing:3px;">
+              <div style="line-height: 12px; ">
                   <center>
-                      <h4 class="my-4">
-                          Got a question?
+                      <h4 class="my-4" style="color:blue">
+                          Got a Question?
                       </h4>
                   </center>
                   <center>
-                      <h1 class="my-4">
+                      <h1 class="my-4" id="contact-header" style="font-family: 'Oswald';" >
                          <b>
-                          Contact Us
+                          Contact Hyperloop IITB
                          </b>
                       </h1>
                   </center>
                   <center>
-                      <h4 class="my-4">
-                          We look forward to hear from you.
+                      <h4 class="my-4" style="color: red;">
+                          Here are we to help and answer any question you might have<br>
+                          We look forward to hearing from you  &#128578;
                       </h4>
                   </center>
               </div>
@@ -100,15 +104,15 @@
           <div class="row justify-content-center">
         
             <!--Grid column-->
-            <div class="col-lg-5 mb-4">
+            <div class="col-lg-6 mb-4">
         
               <!--Form with header-->
-              <div class="card shadow bd-">
+              <div class="card shadow ">
         
-                <div class="card-body">
+                <div class="card-body ">
                   <!--Header-->
-                  <div class="container bg-transperent shadow text-center py-2 mb-4" style="width:350px">
-                    <h4><i class="fa fa-envelope"></i> Write to us:</h4>
+                  <div class="container bg-transperent text-center py-2 mb-4" >
+                    <h4 style="font-weight: bol;"> Write to us:</h4>
                   </div>
         
   
@@ -116,17 +120,22 @@
         
                   <!--Body-->
                   <form class=" needs-validation" id="idForm" >
-                    <div class="form-group ">
-                      <i class="fa fa-user prefix grey-text fa-2x"></i>
-                      <label for="form-name">Your name</label>
-                      <input type="text" id="form-name" class=" form-control" name="name" required />
-          
+                    <div class="d-flex justify-content-between "  style="display:inline-block;">
+                   
+                      <span class="form-group flex-grow-1 mr-2" style="display:inline-block">
+                        <label for="form-firstname" style="justify-content: start;" ><b>First Name</b><span style="color:red">*</span></label>
+                      <input type="text" id="form-firstname" class=" form-control" name="firstname" required />
+                      </span>
+                    <span class="form-group flex-grow-1" style="display:inline-block">
+                      <label for="form-lastname" style="justify-content: start;"><b>Last Name</b><span style="color:red">*</span></label>
+                      <input type="text" id="form-lastname" class=" form-control" name="lastname" required />
+                    </span>
                       
                     </div>
           
                     <div class="form-group ">
-                      <i class="fa fa-envelope prefix grey-text fa-2x"></i>
-                      <label for="form-email">Your email</label>
+                     
+                      <label for="form-email"><b>Email</b><span style="color:red">*</span></label>
                       <input type="email" name="email" id="form-email" class=" form-control " required /> 
           
                      
@@ -135,15 +144,15 @@
                  
           
                     <div class="form-group ">
-                      <i class="fa fa-pencil prefix grey-text fa-2x"></i>
-                      <label for="form-text">Message</label>
+                    
+                      <label for="form-text"><b>Message</b><span style="color:red">*</span></label>
                       <textarea id="form-text" name="message" class=" form-control " rows="4" required></textarea>
                 
                       
                     </div>
           
-                    <div class="text-center mt-4">
-                      <button type="submit"  class="btn btn-primary shadow">Submit</button>
+                    <div class="  mt-4">
+                      <button type="submit"  class="btn btn-primary px-3 shadow">Submit</button>
                     </div>
                   </form>
         
@@ -158,36 +167,27 @@
             <!--Grid column-->
             <div class="col-lg-6">
         
-              <!--Google map-->
-              <div id="map-container-google-11" class="shadow map-container-6" style="height: 350px">
-                <iframe src="https://maps.google.com/maps?q=iit%20bombay&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                  frameborder="0" style="border:0" allowfullscreen></iframe>
-              </div>
-        
-              <br>
+             
               <!--Buttons-->
-              <div class="row text-center py-5">
-                <div class="col-md-4">
-                  <a><i class="fa fa-map-marker fa-2x"></i></a>
-                  <p class="text-muted">
-                    Hyperloop IIT Bombay
-                     Maharastra
-                  </p>
-                
-                </div>
+              <div class=" shadow py-5 contact-info" >
+                  <div class="d-flex justify-content-start">
+                    <i class="fa fa-map-marker"></i>
+                    <p class="d-flex align-self-center"><a href="#">Hyperloop IIT Bombay Maharastra</a></p>
+                  </div>
+            
         
-                <div class="col-md-4">
-                  <a><i class="fa fa-phone fa-2x"> </i></a>
-               <p class="text-muted">
-                + 91 7735944281
-               </p>
+              
+                  <div class="d-flex justify-content-start">
+                  <i class="fa fa-phone"></i>
+                  <p class="d-flex align-self-center"><a href="#">+91 7735944281</a></p>
+                </div>
+               
+        
+               
+                  <div class="d-flex justify-content-start">
+                    <i class="fa fa-envelope"></i>
+                    <p class="d-flex align-self-center"><a href="#">hyperloopiitb@gmail.com</a></p>
                  
-                </div>
-        
-                <div class="col-md-4">
-                  <a><i class="fa fa-envelope fa-2x"></i></a>
-                  <p class="text-muted">hyperloop@gmail.com</p>
-                </div>
               </div>
         
             </div>
@@ -211,40 +211,37 @@
              footer section
           -->
 
-          <footer class="footer-distributed">
-
-            <div class="footer-left ">
-               <p class="footer-company-name justify-content-center d-flex align-self-center" style="margin-top:30px;">Hyperloop IIT Bombay &copy; 2020</p>
-            </div>
+          <footer class="">
+            <center>
+             <div class="row footer_top">
+                 <div class="footer-left col-sm-12  col-md-6">
+                     <p class="footer-company-about d-flex justify-content-center ">                 
+                        Follow Us On 
+                     </p> 
+                     <div class="footer-icons d-flex justify-content-center">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                  </div>
+                  <div class="footer-right  col-sm-12 col-md-6"> 
+                     <div class="d-flex justify-content-center"> 
+                        <i class="fa fa-envelope"></i>
+                        <p class="d-flex align-self-center"><a  href="mailto:hyperloopiitb@gmail.com">hyperloopiitb@gmail.com</a></p>
+                     </div>
+                  </div>
+             </div>
    
-            <div class="footer-center">
-               <div class="d-flex justify-content-center">
-                  <i class="fa fa-phone"></i>
-                  <p class="d-flex align-self-center">+91 7735944281</p>
-               </div>
+            </center>
+            <center>
+                <div class="footer_bottom">
+                 <p class="text-muted"> Hyperloop IIT Bombay &copy; 2020 </p>
+                </div>
+            </center>
+     </footer>
    
-               <div class="d-flex justify-content-center"> 
-                  <i class="fa fa-envelope"></i>
-                  <p class="d-flex align-self-center"><a  href="/cdn-cgi/l/email-protection#b4c7c1c4c4dbc6c0f4d7dbd9c4d5dacd9ad7dbd9">hyperloopiitb@gmail.com</a></p>
-               </div>
    
-            </div>
-   
-            <div class="footer-right"> 
-         
-                  <p class="footer-company-about d-flex justify-content-center ">                 
-                     Follow Us On 
-                  </p> 
-                  <div class="footer-icons d-flex justify-content-center">
-                     <a href="#"><i class="fa fa-facebook"></i></a>
-                     <a href="#"><i class="fa fa-instagram"></i></a>
-                     <a href="#"><i class="fa fa-linkedin"></i></a>
-       
-               </div>
-   
-            </div>
-         </footer>
-      </div>
+      
    </body>
    <script>
     $(window).on("scroll", function () {
