@@ -1,11 +1,11 @@
 body{
     background:
-    url("images/events.svg");
+    url("./bg/team-bg.svg");
     background-attachment: fixed;
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
-    font-family: "Segoe UI", sans-serif;
+    font-family: 'Segoe UI Regular' !important;
    }
 
    .team-member-section{

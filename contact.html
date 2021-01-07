@@ -33,9 +33,9 @@
                 });
               });
          </script>
-         <style>
-          @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-          </style>
+         <script src="./js/index.js"></script>
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
       </head>
       <body>
          <!-- navigation-bar -->
@@ -43,9 +43,14 @@
             <a class="navbar-brand " href="#">
             <img src="images/hyperloop logo webw.png"class="navbar-logo"  height="40">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <i class="fa fa-bars" aria-hidden="true" style="font-size: 25;color:rgb(218, 209, 209)"></i>
-            </button>
+            <span class="navbar-toggler"  data-toggle="collapse" data-target="#collapsibleNavbar">
+              <!-- <i class="fa fa-bars" aria-hidden="true" style="font-size: 25;color:rgb(218, 209, 209)"></i> -->
+              <div class="nav-icon" title="Menu">
+                 <div class="bar1"></div>
+                 <div class="bar2"></div>
+                 <div class="bar3"></div>
+               </div>
+              </span>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                <ul class="navbar-nav ml-auto">
                   <li class="nav-item mx-3">
@@ -76,24 +81,24 @@
         
   <!--Section: Contact v.1-->
   <div class="container contact">
-      <section class="section pb-5">
+      <section class="contact-section pb-5">
   
           <div class="top container">
               <div style="line-height: 12px; ">
                   <center>
-                      <h4 class="my-4" style="color:blue">
+                      <h4 class="my-4" style="color:#2FC5F2">
                           Got a Question?
                       </h4>
                   </center>
                   <center>
-                      <h1 class="my-4" id="contact-header" style="font-family: 'Oswald';" >
+                      <h1 class="my-4" id="contact-header" style="font-family: 'Oswald';font-size: 85px;" >
                          <b>
                           Contact Hyperloop IITB
                          </b>
                       </h1>
                   </center>
                   <center>
-                      <h4 class="my-4" style="color: red;">
+                      <h4 class="my-4" style="color:#FFBC58;">
                           Here are we to help and answer any question you might have<br>
                           We look forward to hearing from you  &#128578;
                       </h4>
@@ -152,7 +157,7 @@
                     </div>
           
                     <div class="  mt-4">
-                      <button type="submit"  class="btn btn-primary px-3 shadow">Submit</button>
+                      <button type="submit"  style="background-color: #172DC9; color:white" class="btn  px-3 shadow">Submit</button>
                     </div>
                   </form>
         
@@ -165,11 +170,11 @@
             <!--Grid column-->
         
             <!--Grid column-->
-            <div class="col-lg-6">
+            <div class="col-lg-6 address-info" >
         
              
               <!--Buttons-->
-              <div class=" shadow py-5 contact-info" >
+              <div class=" shadow py-5 contact-info"  style="background-color:white">
                   <div class="d-flex justify-content-start">
                     <i class="fa fa-map-marker"></i>
                     <p class="d-flex align-self-center"><a href="#">Hyperloop IIT Bombay Maharastra</a></p>
@@ -219,9 +224,9 @@
                         Follow Us On 
                      </p> 
                      <div class="footer-icons d-flex justify-content-center">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/hyperloopiitb/"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/hyperloop_iitb/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/hyperloop-iitb/"><i class="fa fa-linkedin"></i></a>
                   </div>
                   </div>
                   <div class="footer-right  col-sm-12 col-md-6"> 
@@ -279,5 +284,7 @@
         });
       });
       </script>
+
+     
    
 </html>
