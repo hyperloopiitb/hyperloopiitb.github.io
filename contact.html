@@ -75,7 +75,7 @@
           -->
 
 
-         <div class="container" style="height: 80px"  >
+         <div class="container" style="height: 180px"  >
 
         </div>
         
@@ -86,11 +86,16 @@
           <div class="top container">
               <div style="line-height: 12px; ">
                   <center>
-                      <h4 class="my-4" style="color:#2FC5F2">
+                      <!--<h4 class="my-4" style="color:#2FC5F2">
                           Got a Question?
-                      </h4>
+                      </h4>-->
+                      <h1 class="my-4" id="contact-header" style="font-family: 'Oswald';font-size: 85px;" >
+                         <b>
+                          Got a Question?
+                         </b>
+                      </h1>
                   </center>
-                  <center>
+                  <!--<center>
                       <h1 class="my-4" id="contact-header" style="font-family: 'Oswald';font-size: 85px;" >
                          <b>
                           Contact Hyperloop IITB
@@ -104,12 +109,13 @@
                       </h4>
                   </center>
               </div>
-              <br><br></div>
+              </div>-->
+              <br><br><br><br>
         
           <div class="row justify-content-center">
         
             <!--Grid column-->
-            <div class="col-lg-6 mb-4">
+            <div class="col-lg-8 mb-4 pr-3">
         
               <!--Form with header-->
               <div class="card shadow ">
@@ -170,7 +176,7 @@
             <!--Grid column-->
         
             <!--Grid column-->
-            <div class="col-lg-6 address-info" >
+            <div class="col-lg-4 address-info pl-4" >
         
              
               <!--Buttons-->
@@ -224,9 +230,9 @@
                         Follow Us On 
                      </p> 
                      <div class="footer-icons d-flex justify-content-center">
-                        <a href="https://www.facebook.com/hyperloopiitb/"><i class="fa fa-facebook"></i></a>
-                        <a href="https://www.instagram.com/hyperloop_iitb/"><i class="fa fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/company/hyperloop-iitb/"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
                   </div>
                   </div>
                   <div class="footer-right  col-sm-12 col-md-6"> 
@@ -250,7 +256,7 @@
    </body>
    <script>
     $(window).on("scroll", function () {
-      if ($(window).scrollTop() >= screen.availHeight/2) {
+      if ($(window).scrollTop() >= screen.availHeight/3) {
 
         $("#scroller").css({ "transform": "scale(1)" });
       } 
@@ -269,7 +275,7 @@
 
           console.log("hello");
         e.preventDefault(); // avoid to execute the actual submit of the form.
-        const name = document.querySelector("#form-name").value;
+        const name = document.querySelector("#form-firstname").value + " "+ document.querySelector("#form-lastname").value;
         const email = document.querySelector("#form-email").value;
         const message = document.querySelector("#form-text").value;
         var formData = { name: name, email: email, message: message };
