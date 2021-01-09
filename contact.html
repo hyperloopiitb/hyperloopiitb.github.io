@@ -230,10 +230,9 @@
                         Follow Us On 
                      </p> 
                      <div class="footer-icons d-flex justify-content-center">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                  </div>
+                         <a href="https://www.facebook.com/hyperloopiitb/"><i class="fa fa-facebook"></i></a>
+                     <a href="https://www.instagram.com/hyperloop_iitb/"><i class="fa fa-instagram"></i></a>
+                     <a href="https://www.linkedin.com/company/hyperloop-iitb/"><i class="fa fa-linkedin"></i></a>
                   </div>
                   <div class="footer-right  col-sm-12 col-md-6"> 
                      <div class="d-flex justify-content-center"> 
@@ -271,7 +270,7 @@
    </script>
    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
    <script> 
-     $("#idForm").submit(function(e) {
+    $("#idForm").submit(function(e) {
 
           console.log("hello");
         e.preventDefault(); // avoid to execute the actual submit of the form.
@@ -279,10 +278,10 @@
         const email = document.querySelector("#form-email").value;
         const message = document.querySelector("#form-text").value;
         var formData = { name: name, email: email, message: message };
-        
+         document.querySelector("#idForm").reset();
         axios.post("https://hyperloopmessageportal.herokuapp.com/",formData).then((response)=>{
           alert("successfully message sent");
-          document.querySelector("#idForm").reset();
+         
           
 
         }).catch(e=>{
