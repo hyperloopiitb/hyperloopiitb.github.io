@@ -265,11 +265,11 @@
    </script>
    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
    <script> 
-      $("#idForm").submit(function(e) {
+     $("#idForm").submit(function(e) {
 
           console.log("hello");
         e.preventDefault(); // avoid to execute the actual submit of the form.
-        const name = document.querySelector("#form-name").value;
+        const name = document.querySelector("#form-firstname").value + " "+ document.querySelector("#form-lastname").value;
         const email = document.querySelector("#form-email").value;
         const message = document.querySelector("#form-text").value;
         var formData = { name: name, email: email, message: message };
