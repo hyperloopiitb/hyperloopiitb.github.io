@@ -501,7 +501,9 @@ footer  .footer-right{
 footer.footer-center i{
   margin-left: 0;
 }
-
+footer .footer-right i.fa-envelope{
+display:none;
+}
 }
 
 
